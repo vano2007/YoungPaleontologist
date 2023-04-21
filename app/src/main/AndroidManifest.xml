@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YoungPaleontologist">
         <activity
+            android:name=".PaleozoicActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MesozoicActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CenozoicActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity2"
             android:exported="true" />
         <activity
